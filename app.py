@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Sidebar: Contact & Photo ---
-photo_url = "https://raw.githubusercontent.com/Akshayk69/<your-repo>/main/akshay_photo.jpg"  # Update this path
+photo_url = "https://raw.githubusercontent.com/Akshayk69/My-web-app/main/akshay_photo.jpg"  # Update this path
 st.sidebar.image(photo_url, width=200, caption="Akshay Kumar Bagde")
 st.sidebar.markdown("📧 [akshaybagde0805@gmail.com](mailto:akshaybagde0805@gmail.com)")
 st.sidebar.markdown("📞 +91 9823459330")
