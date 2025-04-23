@@ -4,9 +4,10 @@ from PIL import Image
 # Set page configuration
 st.set_page_config(page_title="Akshay Kumar Bagde | Data Scientist", layout="centered")
 
-# Sidebar with contact info
-st.sidebar.image("https://avatars.githubusercontent.com/u/77186098?v=4", width=150)
-st.sidebar.markdown("### Akshay Kumar Bagde")
+# Sidebar with contact info and photo
+image = Image.open("akshay_photo.jpg")
+st.sidebar.image(image, caption="Akshay Kumar Bagde", width=200)
+
 st.sidebar.markdown("📧 [akshaybagde0805@gmail.com](mailto:akshaybagde0805@gmail.com)")
 st.sidebar.markdown("📞 +91 9823459330")
 st.sidebar.markdown("🌐 [LinkedIn](http://www.linkedin.com/in/akshaykumarbagde)")
@@ -25,9 +26,9 @@ Proven track record in improving KPIs, automating ML pipelines, and leveraging A
 # --- Skills ---
 st.markdown("### 💼 Skills & Tools")
 st.markdown("""
-- **Programming & Analysis**: Python, PySpark, SQL, Pandas, NumPy, Excel
-- **ML & AI**: Scikit-learn, XGBoost, Keras, CNN, LSTM, FBProphet
-- **Visualization & BI**: Power BI, Seaborn
+- **Programming & Analysis**: Python, PySpark, SQL, Pandas, NumPy, Excel  
+- **ML & AI**: Scikit-learn, XGBoost, Keras, CNN, LSTM, FBProphet  
+- **Visualization & BI**: Power BI, Seaborn  
 - **NLP**: NLTK, Sentiment Analysis, Data Scraping
 """)
 
@@ -36,15 +37,15 @@ st.markdown("### 🧠 Work Experience")
 
 st.markdown("**Data Scientist – Ernst & Young**  \n*Oct 2022 – Present*")
 st.markdown("""
-- Developed Forecast Engine Utility for 10K+ FMCG SKUs.
-- Used regression, XGBoost, FBProphet for demand prediction.
-- Collaborated across teams using Azure Databricks to automate pipelines.
+- Developed Forecast Engine Utility for 10K+ FMCG SKUs.  
+- Used regression, XGBoost, FBProphet for demand prediction.  
+- Collaborated across teams using Azure Databricks to automate pipelines.  
 - Led optimization initiatives that reduced logistics cost & time.
 """)
 
 st.markdown("**Consultant – Design Center**  \n*Sep 2014 – May 2015*")
 st.markdown("""
-- Delivered strategy consulting for MSMEs.
+- Delivered strategy consulting for MSMEs.  
 - Implemented data-driven improvements across operational flows.
 """)
 
